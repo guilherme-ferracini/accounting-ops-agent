@@ -1,0 +1,50 @@
+{
+  "clients": [
+    {
+      "id": "CL-001",
+      "name": "Aurora Distribuidora Ltda",
+      "regime": "simples",
+      "simples_annex": "I",
+      "rbt12": 2950000.00,
+      "last_month_revenue": 268400.00,
+      "has_employees": true,
+      "employees": 18
+    },
+    {
+      "id": "CL-002",
+      "name": "Bussola Software Ltda",
+      "regime": "simples",
+      "simples_annex": "III",
+      "rbt12": 642000.00,
+      "last_month_revenue": 58300.00,
+      "has_employees": true,
+      "employees": 6
+    },
+    {
+      "id": "CL-003",
+      "name": "Cedro Engenharia Ltda",
+      "regime": "lucro_presumido",
+      "simples_annex": null,
+      "rbt12": 5400000.00,
+      "last_month_revenue": 470000.00,
+      "has_employees": true,
+      "employees": 41
+    },
+    {
+      "id": "CL-004",
+      "name": "Delta Clinica Medica Ltda",
+      "regime": "simples",
+      "simples_annex": "III",
+      "rbt12": 168000.00,
+      "last_month_revenue": 15200.00,
+      "has_employees": false,
+      "employees": 0
+    }
+  ],
+  "pending_documents": [
+    {"client_id": "CL-001", "document": "Bank statement - October", "requested_on": "2026-11-03"},
+    {"client_id": "CL-001", "document": "Purchase invoices - October", "requested_on": "2026-11-03"},
+    {"client_id": "CL-002", "document": "Payroll changes - November", "requested_on": "2026-11-05"},
+    {"client_id": "CL-003", "document": "Health plan invoice - October", "requested_on": "2026-11-04"}
+  ]
+}
